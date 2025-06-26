@@ -6,6 +6,7 @@ import os
 Configuração de Agente:
 Definição de personalidade do agente(Prompt padrão);
 Definição de base de dados que o agente irá consultar(PDF);
+## Lembre-se de colocar os arquivos de PDF na mesma pasta do código, se não ele não conseguirá encontrar o arquivo para leitura.
 '''
 # 1. Configure a sua Chave de API
 genai.configure(api_key="chave_API_Gemini")
